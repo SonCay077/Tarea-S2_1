@@ -1,13 +1,13 @@
 public class Pelota {
     String color;
-    String tamaño;
+    String tamanio;
 
-    Pelota(String color, String tamaño){
+    Pelota(String color, String tamanio){
         this.color = color;
-        this.tamaño = tamaño;
+        this.tamanio = tamanio;
     }
 
     void mostrarDetalles() {
-        System.out.println("Color: " + color + ", Tamaño: " + tamaño);
+        System.out.println("Color: " + color + ", Tamaño: " + tamanio);
     }
 }
